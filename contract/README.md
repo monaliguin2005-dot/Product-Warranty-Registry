@@ -1,22 +1,63 @@
-# Soroban Project
+# 🛡️ Product Warranty Registry (Soroban Smart Contract)
 
-## Project Structure
+## 📌 Project Description
+<img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/fa540dc1-8974-4c12-a532-134383ffc6fa" />
 
-This repository uses the recommended structure for a Soroban project:
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+The **Product Warranty Registry** is a blockchain-based solution built on the Stellar network using Soroban smart contracts. It allows users to securely register and verify product warranties in a decentralized manner.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+This system ensures transparency, immutability, and easy access to warranty data without relying on centralized databases.
+
+---
+
+## ⚙️ What it does
+
+* Stores product warranty details on-chain
+* Allows users to register product warranties with:
+
+  * Product ID
+  * Owner name
+  * Expiry date
+* Enables retrieval of warranty information anytime
+* Prevents tampering or loss of warranty records
+
+---
+
+## 🚀 Features
+
+* 🔐 **Decentralized Storage** – No central authority controls the data
+* 📦 **Product Registration** – Add warranty details for any product
+* 🔍 **Easy Verification** – Fetch warranty details instantly
+* ⛓️ **Immutable Records** – Data cannot be altered once stored
+* ⚡ **Fast & Low-cost** – Powered by Soroban on Stellar
+
+---
+
+## 🌐 Deployed Smart Contract Link
+
+https://stellar.expert/explorer/testnet/contract/CBJRBZBT6FI6PGJ6VHS636IPFT5MPJZ7FPMREMH3CFVWCIKFTQDD7HV7
+
+*(Replace this with your deployed contract address or explorer link)*
+
+---
+
+## 🛠️ Tech Stack
+
+* Rust
+* Soroban SDK
+* Stellar Blockchain
+
+---
+
+## 📈 Future Improvements
+
+* Add product ownership transfer
+* Add warranty status (active/expired)
+* Integrate with QR code scanning
+* Build a frontend UI
+
+---
+
+## 🙌 Acknowledgements
+
+Built using Soroban smart contracts on the Stellar blockchain ecosystem.
