@@ -2,6 +2,8 @@
 
 ## 📌 Project Description
 <img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/fa540dc1-8974-4c12-a532-134383ffc6fa" />
+<img width="1915" height="965" alt="image" src="https://github.com/user-attachments/assets/187529bc-dabe-4bf8-b9df-10be5c254134" />
+
 
 
 The **Product Warranty Registry** is a blockchain-based solution built on the Stellar network using Soroban smart contracts. It allows users to securely register and verify product warranties in a decentralized manner.
